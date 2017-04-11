@@ -1,0 +1,169 @@
+#search{
+min-height:120px;
+max-width:100%;
+background-color:#7ec0ee;
+}
+.Newsletter{
+	margin-top:5%;
+	margin-left:5px;
+}
+.button {
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 9.5%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#mission{
+margin-left:20%;
+margin-right:20%;
+}
+
+#mission h3{
+margin-left:20%;
+}
+#who_are_we{
+	margin:5%;
+	margin-left:19%;
+	margin-right:5%;
+}
+.panel{
+	width:440px;
+	border-color:#236fb6;
+	border-width:10px;
+}
+#GST{
+	font-family:arial;
+	font-size:20px;
+}
+#header{
+ font-size:30px;
+}
+#sub-head{
+	font-size:10px;
+	margin-left:5px;
+}
+#title{
+	font-size:20px;
+}
+#second-body{
+	margin-top:30%;
+}
+#services h1{
+	padding-bottom:20px;
+}
+.triangle{
+	height:30px;
+	width:40px;
+	border-top:30px solid transparent;
+	border-bottom:30px solid transparent; 
+	border-right:30px solid blue;
+	
+}
+.arrow-left {
+  width: 0px; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-right:20px solid #ededed;
+  float:right;
+  position:relative;
+  top:-150px;
+
+}
+.audit{
+	padding:0px;
+	max-width:100%;
+	
+}
+#audit_div{
+	background-color:#ededed;
+	min-height:323px;
+	font-family:Source Sans Pro;
+	font-size:18px;
+}
+h3{
+	font-family: 'Montserrat';
+    font-size: .75em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: #24d6eb;
+    padding: 7px 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    margin: 10px 0;
+}
+#audit_div{
+	padding-left:10px;
+}
+#audit_img_div{
+	padding:0px;
+	height:250px;
+	background-image:url:(Images/audit.jpg);
+}
+p{
+	font-family: 'Montserrat';
+}
+#mission{
+	font-size:18px;
+}
+#intro-body{
+	font-size:15px;
+}
+#accounting_div{
+	padding-left:30px;
+	background-color:#ededed;
+	min-height:323px;
+	font-size:18px;
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ededed;
+}
+#accounting_img{
+	background-image:url(Images/accounting.jpg);
+	background-size: cover;
+    opacity: 1;
+    min-height: 350px;
+    background-position: center center;
+}
+#join_accountion{
+	position:relative;
+	top:-350px;
+	left:15%;
+	
+}
